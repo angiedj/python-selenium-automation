@@ -37,14 +37,14 @@ driver.find_element(By.XPATH, '//a[contains(@href, "privacy_notice")]')
 
 #find need help link
 # find by XPATH
-driver.find_element(By.XPATH, "a-expander-prompt")
+driver.find_element(By.XPATH, "//span[@class='a-expander-prompt')]')
 
 #find forgot your password link
 # find by ID
-driver.find_element(By.ID, 'auth-fpp-link-bottom')
+driver.find_element(By.ID, '//a[contains(@href, "Forgot  your password?")]')
 
 #find other issues with sign-in link
-driver.find_element(By.ID, 'ap-other-signin-issues-link')
+driver.find_element(By.ID, '//a[contains(@href, "Other  issues with Sign-In")]')
 
 #find create your Amazon account button
-driver.find_element(By.ID, 'createAccountSubmit')
+driver.find_element(By.ID, '//a[contains(@href, "createAccountSubmit")]')
