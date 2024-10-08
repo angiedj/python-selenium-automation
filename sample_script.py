@@ -28,6 +28,6 @@ driver.find_element(By.NAME, 'btnK').click()
 
 # verify search results
 assert 'car'.lower() in driver.current_url.lower(), f"Expected query not in {driver.current_url.lower()}"
-print('Test Passed')
+print('Test Passed ok')
 
 driver.quit()
